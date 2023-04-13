@@ -138,7 +138,7 @@ public class EjemplosApplication {
 		String eliminar5 = pilacara.pop();
 		String eliminar4 = pilacara.pop();
 
-		System.out.println("Nueva pila invertida y eliminada: " + eliminar6 + " " + eliminar5 + " " + eliminar4);
+		System.out.println("HOLITAS - Nueva pila invertida y eliminada: " + eliminar6 + " " + eliminar5 + " " + eliminar4);
 
 	}
 
