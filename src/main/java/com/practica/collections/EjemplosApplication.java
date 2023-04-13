@@ -111,13 +111,34 @@ public class EjemplosApplication {
 
 
 		//7. Crear una pila Stack de cadenas de caracteres el orden de la pila pero en orden inverso
+		Stack<String> pilacara = new Stack<>();
+
+		pilacara.push("Uno");
+		pilacara.push("Dos");
+		pilacara.push("Tres");
+
+		System.out.println("7. Pila invertida:");
+		for (int i = pilacara.size()-1; i >= 0; i--){
+			System.out.println(pilacara.get(i));
+		}
+
+		System.out.println("Invertida de otro modo: ");
+		while (!pilacara.empty()){
+			System.out.println(pilacara.pop());
+		}
 
 
+		System.out.println("¿La pila tiene items?" + pilacara.empty());
 
+		pilacara.push("Cuatro");
+		pilacara.push("Cinco");
+		pilacara.push("Seis");
 
+		String eliminar6 = pilacara.pop();
+		String eliminar5 = pilacara.pop();
+		String eliminar4 = pilacara.pop();
 
-
-
+		System.out.println("Nueva pila invertida y eliminada: " + eliminar6 + " " + eliminar5 + " " + eliminar4);
 
 	}
 
