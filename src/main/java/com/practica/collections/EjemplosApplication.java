@@ -13,7 +13,9 @@ public class EjemplosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EjemplosApplication.class, args);
+		System.out.println("");
 		System.out.println("Corriendo OK");
+		System.out.println("");
 
 		//1. Crear ArrayList de num enteros y mostrar por pantalla la suma de todos ellos
 		ArrayList<Integer> numeros = new ArrayList<>();
